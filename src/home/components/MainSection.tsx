@@ -7,9 +7,9 @@ import {
 } from "@mui/material";
 
 const MainSection = () => {
-  const title = "Vos queres crecer.\n Nosotros te queremos ayudar";
+  const title = "Sean Bienvenidos a Roomsite";
   const subtitle =
-    "Crea una web con plantillas impecables, fácil edición y sin codificación.";
+    "Es una de las opciones más recomendados para buscar habitaciones de alta elegancia a un buen precio.";
   const sm = useMediaQuery("min-width(600px)");
 
   return (
@@ -76,7 +76,7 @@ const MainSection = () => {
             sm: "left",
           }}
         >
-          <Button variant="contained">Comienza a crear</Button>
+          <Button variant="contained">Comenzar a buscar</Button>
         </Box>
 
         <Box
